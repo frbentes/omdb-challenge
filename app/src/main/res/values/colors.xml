@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="primary_light">#C5CAE9</color>
+    <color name="accent">#448AFF</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="default_background">#f2f2f2</color>
+    <color name="title_text_color">#FF2D383E</color>
+    <color name="description_text_color">#656565</color>
+    <color name="white_color">#ffffff</color>
+    <color name="table_caption_text">#455A64</color>
+    <color name="bg_table_caption">#CFD8DC</color>
+
+    <color name="search_button_text_color">#1a5fa6</color>
+
+    <!-- grid -->
+    <color name="column_text_color">#7D7D7D</color>
+    <color name="divider_color">#80b2b2b2</color>
+
+</resources>

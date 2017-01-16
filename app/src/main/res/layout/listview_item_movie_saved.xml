@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/list_item_padding">
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_toLeftOf="@+id/btn_remove">
+
+        <ImageView
+            android:id="@+id/iv_movie_poster"
+            android:layout_width="@dimen/poster_width"
+            android:layout_height="@dimen/poster_height"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="@dimen/poster_margin_right"
+            android:adjustViewBounds="true"
+            android:transitionName="poster" />
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_movie_poster"
+            android:orientation="vertical">
+        
+            <TextView
+                android:id="@+id/tv_movie_title"
+                style="@style/ListItemText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/movie_detail_label_title" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/item_margin_top"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/movie_detail_label_genre"
+                    android:textColor="@color/description_text_color"
+                    android:textSize="@dimen/description_text_size" />
+
+                <TextView
+                    android:id="@+id/tv_movie_genre"
+                    style="@style/ListSubItemText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/item_margin_top"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/movie_detail_label_duration"
+                    android:textColor="@color/description_text_color"
+                    android:textSize="@dimen/description_text_size" />
+
+                <TextView
+                    android:id="@+id/tv_movie_duration"
+                    style="@style/ListSubItemText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_remove"
+        android:layout_width="@dimen/btn_remove_width"
+        android:layout_height="@dimen/btn_remove_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/btn_remove_margin"
+        android:layout_marginRight="@dimen/btn_remove_margin"
+        android:background="@drawable/selector_remove" />
+</RelativeLayout>

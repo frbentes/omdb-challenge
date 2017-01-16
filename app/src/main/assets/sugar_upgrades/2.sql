@@ -1,0 +1,1 @@
+alter table MOVIETABLE alter column POSTER BLOB;

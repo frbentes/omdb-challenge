@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">OMDbChallenge</string>
+
+    <!-- Home -->
+    <string name="home_screen_title">OMDb Challenge</string>
+    <string name="table_caption">Added Movies</string>
+    <string name="msg_no_movies">No saved movies\nClick \'+\' to start a search.</string>
+
+    <!-- Movie Search -->
+    <string name="movie_search_screen_title">Movie Search</string>
+    <string name="edit_hint">Title</string>
+    <string name="button_search">Search</string>
+    <string name="snackbar_empty_title">Please, enter a movie title.</string>
+    <string name="snackbar_movie_not_found">The movie title was not found.</string>
+    <string name="snackbar_connection_failed">Connection failed, please check your internet connection and try again.</string>
+    <string name="snackbar_data_not_received">Failed to receive data.</string>
+    <string name="movie_item_name">Title</string>
+    <string name="movie_item_director">Director</string>
+    <string name="movie_item_year">Year</string>
+    <string name="item_add">ADD</string>
+    <string name="item_saved">SAVED</string>
+
+    <!-- Movie Detail -->
+    <string name="movie_detail_screen_title">Movie Detail</string>
+    <string name="movie_detail_label_title">Movie title</string>
+    <string name="movie_detail_label_year">Year:</string>
+    <string name="movie_detail_label_genre">Genre:</string>
+    <string name="movie_detail_label_duration">Duration:</string>
+    <string name="movie_detail_label_awards">Awards:</string>
+    <string name="movie_detail_label_director">Director:</string>
+    <string name="movie_detail_label_actors">Actors:</string>
+    <string name="movie_detail_label_plot">Plot:</string>
+
+    <!-- Circular ProgressBar -->
+    <string name="progress_rotation_speed" translatable="false">2.0</string>
+    <string name="progress_sweep_speed" translatable="false">1.0</string>
+
+    <!-- typeface -->
+    <string name="ttf_roboto_regular">fonts/Roboto-Regular.ttf</string>
+    <string name="ttf_roboto_medium">fonts/Roboto-Medium.ttf</string>
+    <string name="ttf_roboto_bold">fonts/Roboto-Bold.ttf</string>
+
+</resources>

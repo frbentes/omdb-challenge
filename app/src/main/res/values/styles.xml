@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="cpbStyle">@style/DefaultProgressBar</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SearchButton" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">14dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/search_button_text</item>
+        <item name="fontPath">fonts/Roboto-Medium.ttf</item>
+    </style>
+
+    <style name="AddButton">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/white_color</item>
+        <item name="fontPath">fonts/Roboto-Bold.ttf</item>
+    </style>
+
+    <style name="CardTextItem">
+        <item name="android:paddingLeft">@dimen/card_padding_large</item>
+        <item name="android:paddingTop">@dimen/card_padding_large</item>
+        <item name="android:paddingRight">@dimen/card_padding_large</item>
+        <item name="android:paddingBottom">@dimen/card_padding_medium</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="fontPath">fonts/Roboto-Bold.ttf</item>
+    </style>
+
+    <style name="CardTextSubItem">
+        <item name="android:paddingLeft">@dimen/card_padding_large</item>
+        <item name="android:paddingTop">@dimen/card_padding_medium</item>
+        <item name="android:paddingRight">@dimen/card_padding_large</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/description_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="fontPath">fonts/Roboto-Medium.ttf</item>
+    </style>
+
+    <style name="GridLeftColumn">
+        <item name="layout_gravity">left</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/column_text_color</item>
+        <item name="fontPath">fonts/Roboto-Medium.ttf</item>
+    </style>
+
+    <style name="GridRightColumn">
+        <item name="layout_gravity">fill_horizontal</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/description_text_color</item>
+    </style>
+
+    <style name="MovieDetailTitle">
+        <item name="android:paddingTop">@dimen/text_movie_title_padding</item>
+        <item name="android:paddingLeft">@dimen/text_movie_title_padding_left</item>
+        <item name="android:paddingRight">@dimen/text_movie_title_padding</item>
+        <item name="android:paddingBottom">@dimen/text_movie_title_padding</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/title_text_color</item>
+    </style>
+
+    <style name="ListItemText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="ListSubItemText">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/description_text_color</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="fontPath">fonts/Roboto-Medium.ttf</item>
+    </style>
+
+    <!-- circular progress bar -->
+    <style name="DefaultProgressBar" parent="android:Widget.Holo.ProgressBar">
+        <item name="cpb_stroke_width">@dimen/progress_stroke_width</item>
+        <item name="cpb_rotation_speed">@string/progress_rotation_speed</item>
+        <item name="cpb_sweep_speed">@string/progress_sweep_speed</item>
+        <item name="cpb_min_sweep_angle">@integer/progress_min_sweep_angle</item>
+        <item name="cpb_max_sweep_angle">@integer/progress_max_sweep_angle</item>
+    </style>
+
+</resources>
